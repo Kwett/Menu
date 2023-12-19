@@ -13,11 +13,6 @@ export class SignUpComponent implements OnInit {
 
   constructor() { }
 
-
-  errorCheck( User : SignUpForm): void {
- 
-  }
-
   onSubmit(): void {
     console.log(this.User);
   }
