@@ -1,0 +1,56 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top : 100px;
+  }
+
+
+fieldset {
+    border : none;
+}
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  div {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin : 5px;
+  }
+  
+  button[type="reset"] {
+    background-color: #f44336;
+  }
+  
+  span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  
+  span.error {
+    color: red;
+  }
